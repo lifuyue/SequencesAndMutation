@@ -145,6 +145,9 @@ def MUTATE_delete_negatives(numbers):
     #       Take a stab at this problem,
     #       then see the solutions posted on Piazza.
     #       See those solutions even if your approach passes the tests.
+    for number in numbers:
+        if number < 0:
+            numbers.remove(number)
 
 
 # ----------------------------------------------------------------------
